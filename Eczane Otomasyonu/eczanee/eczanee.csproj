@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{72F8BC6A-9825-45E4-B8E8-5348F87B33DD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>eczanee</RootNamespace>
+    <AssemblyName>eczanee</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="eczaneDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>eczaneDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmgiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmgiris.Designer.cs">
+      <DependentUpon>frmgiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmliste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmliste.Designer.cs">
+      <DependentUpon>frmliste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmbolum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbolum.Designer.cs">
+      <DependentUpon>frmbolum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmilac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmilac.Designer.cs">
+      <DependentUpon>frmilac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmkayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmkayit.Designer.cs">
+      <DependentUpon>frmkayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmpersonel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmpersonel.Designer.cs">
+      <DependentUpon>frmpersonel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmsatis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsatis.Designer.cs">
+      <DependentUpon>frmsatis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sqlbaglantisi.cs" />
+    <EmbeddedResource Include="frmgiris.resx">
+      <DependentUpon>frmgiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmliste.resx">
+      <DependentUpon>frmliste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmbolum.resx">
+      <DependentUpon>frmbolum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmilac.resx">
+      <DependentUpon>frmilac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmkayit.resx">
+      <DependentUpon>frmkayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmpersonel.resx">
+      <DependentUpon>frmpersonel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsatis.resx">
+      <DependentUpon>frmsatis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="eczaneDataSet.xsc">
+      <DependentUpon>eczaneDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="eczaneDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>eczaneDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="eczaneDataSet.xss">
+      <DependentUpon>eczaneDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eczanee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eczaneeee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kalp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospital %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medicine.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifying-glass.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

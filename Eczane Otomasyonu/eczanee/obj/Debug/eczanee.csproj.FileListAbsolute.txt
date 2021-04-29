@@ -1,0 +1,15 @@
+C:\Users\Nur\source\repos\eczanee\eczanee\obj\Debug\eczanee.csprojAssemblyReference.cache
+C:\Users\Nur\source\repos\eczanee\eczanee\obj\Debug\eczanee.Properties.Resources.resources
+C:\Users\Nur\source\repos\eczanee\eczanee\obj\Debug\eczanee.csproj.GenerateResource.cache
+C:\Users\Nur\source\repos\eczanee\eczanee\bin\Debug\eczanee.exe.config
+C:\Users\Nur\source\repos\eczanee\eczanee\bin\Debug\eczanee.exe
+C:\Users\Nur\source\repos\eczanee\eczanee\bin\Debug\eczanee.pdb
+C:\Users\Nur\source\repos\eczanee\eczanee\obj\Debug\eczanee.exe
+C:\Users\Nur\source\repos\eczanee\eczanee\obj\Debug\eczanee.pdb
+C:\Users\Nur\source\repos\eczanee\eczanee\obj\Debug\eczanee.frmbolum.resources
+C:\Users\Nur\source\repos\eczanee\eczanee\obj\Debug\eczanee.frmpersonel.resources
+C:\Users\Nur\source\repos\eczanee\eczanee\obj\Debug\eczanee.frmsatis.resources
+C:\Users\Nur\source\repos\eczanee\eczanee\obj\Debug\eczanee.frmilac.resources
+C:\Users\Nur\source\repos\eczanee\eczanee\obj\Debug\eczanee.frmkayit.resources
+C:\Users\Nur\source\repos\eczanee\eczanee\obj\Debug\eczanee.frmgiris.resources
+C:\Users\Nur\source\repos\eczanee\eczanee\obj\Debug\eczanee.frmliste.resources
